@@ -1,6 +1,6 @@
 def git_repo = 'https://github.com/ChaseRushville/bachelorrepo'
 def branch = 'main'
-def python_version = 'Python 3.10.0'
+def python_version = 'Python 3.10.7'
 
 pipeline {
     agent {
