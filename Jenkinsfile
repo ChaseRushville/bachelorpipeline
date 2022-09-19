@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-                timeout(time: 90, unit: 'SECONDS') {
+                timeout(time: 300, unit: 'SECONDS') {
                     echoBanner("STAGE: git checkout")
                     git url: git_repo,
                         branch: branch
