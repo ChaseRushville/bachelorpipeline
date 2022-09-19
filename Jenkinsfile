@@ -47,7 +47,7 @@ pipeline {
                     echoBanner("STAGE: black")
                     activateVenv()
                     sh """
-                    black --extend-exclude=/\.jenkinsvenv/ .
+                    black --extend-exclude="/\.jenkinsvenv/ ."
                     """
                     deactivateVenv()
                 }
