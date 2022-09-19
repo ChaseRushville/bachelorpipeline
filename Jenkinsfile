@@ -1,4 +1,4 @@
-def git_repo = 'https://github.com/link-to/repository'
+def git_repo = 'https://github.com/ChaseRushville/bachelorrepo'
 def branch = 'main'
 def python_version = 'Python 3.10.0'
 
